@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+   <style>
+    a:link{
+        text-decoration: none;
+      
+         
+     }
+     a:hover{ color:red;}
+     a:visited{
+              background-color: chartreuse;}
+      a:active{
+          text-decoration: underline;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div><img id="myImage" src="feedback.webp"><div class="box1"></div>
+    <div><br><hr color="red"></div>
+    <div><header><nav>
+      <ul id="ul1">
+          <li><a href="css.html">Books</a></li>
+          <li><a href="#">skill</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="feedback.html">feedback</a></li>
+      </ul>
+  </nav></header></div>
+  <div><hr color="red"></div>
+   
+  <div class="container">
+       <div class="item1"><div class="header"> <b>* FEEDBACK FORM *</b></div><br>
+       <form onsubmit="return false" >
+				<label >First Name</label><br>
+				<input id="first" name="frst" type="text" placeholder="First Name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br>
+				<label>Middle Name</label><br>
+				<input id="middle" type="text" placeholder="Middle Name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" ><br>
+				<label>Last Name</label><br>
+				<input id="last" name="lastName" type="text" placeholder="Last Name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br>
+				<label>Gender</label>
+				<input type="radio" id="male" name="gender" value="Mr."><label>Male</label>
+				<input type="radio" id="female" name="gender" value="Mrs."><label>Female</label><br>
+				<label>Comments</label><br>
+				<textarea id="suggestions"required></textarea><br>
+				<button id="click" onclick="input()">Submit</button>
+				<button onclick="reset()">clear</button>
+			</form>
+    </div>
+       <div class="item2" >
+           <div class="display">DISPLAY</div>
+           <div id="suggestions1">
+           <p id="mytest">
+
+           </p>
+           </div>
+    
+   
+    
+    </div>
+       </div>
+       <div class="footer">
+   
+        Copyright © All Right Reserved
+         <br> Developed by MANDEEP SINGH 
+      
+</div>
+
+
+</body>
+<script src="feedback.js"></script>
+</html>

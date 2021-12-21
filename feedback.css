@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#d8d7d08a;
+    background-color: transparent;
+}
+
+#myImage{
+    width: 70vw;
+    height: 30vh;
+    
+}
+.box1
+{
+    display: inline-block;
+    width: 14vw;
+    height:30vh;
+    background-color: white;
+     }
+   
+     li {
+        list-style: none;
+        display: inline;
+        margin: 0px 50px 0px 50px; 
+        padding: 5px 30px 5px 30px;
+        border-radius: 10px;
+         background-color: chartreuse;
+        background-attachment: fixed;
+        color: crimson;
+    }
+        
+    #ul1
+     {
+      margin: 10px 60px 10px ;
+     
+      padding:3px 150px 3px 150px;
+       background-attachment: fixed;
+     }
+     .container
+     {
+       display: grid;
+       height:auto;
+       width: auto;
+       grid-template-columns:auto auto;
+       grid-gap:0px 5px;
+       margin: 60px 70px 10px 100px;
+    background-color: blueviolet; 
+         border-radius: 20px;
+    }   
+     .item1
+     {   
+        width: 450px;
+         
+         
+        height: auto;
+        padding: 20px 20px 20px 10px;
+        color: rgb(0, 1, 2);
+       margin: 10px 10px 10px 10px;
+       background-color: rgb(241, 120, 140);
+          border-radius: 20px;
+          font-weight: bold;
+          font-size: 15px;
+     }    
+     .item2
+     { 
+        width: 620px;
+        height:auto;
+       margin: 10px 10px 10px 10px;
+       background-color: rgb(241, 120, 140);
+          border-radius: 20px;
+          padding: 20px 20px 20px 10px;
+         
+     }    
+     .header
+     {
+        border-radius: 20px;
+         background-color: darkgrey;
+        color: rgb(4, 0, 255);
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+        font-size: 25px;
+     }
+     .footer
+  {
+    display: inline-block;
+    width: 98vw;
+    height:auto;
+    background-color: black;
+     font-size: 15px;
+     color: white;
+     text-align: center;
+     padding: 20px 10px 20px 10px;
+  }
+  #userName,#feedback
+  {
+      padding:10px;
+  }
+  
+  form
+  {
+      margin-left:5%;
+      margin-top:5%;
+  }
+  p#mytest
+  {
+      padding:10px;
+  }
+  #mytest
+  {
+      
+          width:80%;
+          height: 400px;
+       margin: 40px 10px 10px 40px;
+      resize:none;
+      font-size:18px;
+      border: 2px solid wheat;
+      padding: 10px 10px 10px 10px;
+      border-radius: 20px;
+  }
+
+  input[type=text]
+  {
+      width:80%;
+    padding: 3% 3%;
+    margin: 2.5% 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=radio]
+  {
+      margin:1px 5px  4% 10px;
+      
+      
+  }
+#suggestions
+{
+    width: 80%;
+    height: 50px;
+        padding: 10px 10px 10px 10px;
+      margin: 20px 10px 10px 20px;
+}
+#suggestions1
+{
+    display:block;
+    overflow-y: scroll;
+}
+  input#suggestions
+  {
+      height:25%;
+  }
+  button
+  {
+      margin:10px 10px 10px 30px;
+      font-size:150%;
+      padding: 5px 5px 5px 5px;
+      border-radius: 15px;
+      background-color: silver;
+  }
+label
+{
+ margin-left:10%;
+}
+.display
+{
+     text-align: center;
+    font-size:150%;
+    color: green;
+    text-decoration:underline overline dotted red ;
+    
+    
+    
+}
